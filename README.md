@@ -1,3 +1,34 @@
-# Spring-Framework
+# Spring Framework
+- É um dos projetos do Spring
 - Java Configuration
 - XML Configuration
+
+- O Spring Framework é dividido em módulo
+  - Os aplicativos podem escolher quais módulos precisam
+  - Modulos:
+    - Core Container (Módulo Principal)
+      - Configuration Model
+      - Dependency Injection Mechanism
+
+- Spring Framework 5.0
+  - Java EE 7 (min)
+    - Servlet 3.1 - JSR 340 (FR)
+    - WebSocket 1.1 - JSR 356 (MR)
+    - Concurrency Utilities 1.0 - JSR 236 (FR)
+    - JSON-B 1.0 - JSR 367 (FR) 
+    - JPA 2.1+ - JSR 338 (FR)
+    - JMS 2.0 - JSR 343(FR)
+    - JTA 1.2 - JSR 907 (MR2)
+    - Dependency Injection 1.0 - JSR 330 (FR) 
+      - Alternativa ao mecanismos fornecidos do específicos Spring    
+    - Common Annotations 1.3 - JSR 250 (MR3) 
+       - Alternativa ao mecanismos fornecidos do específicos Spring    
+  - Java EE 8
+    - Servlet 4.0 - JSR 369 (FR)
+    - JPA 2.2 - JSR 338 (MR)
+    - JSON-B - 1.0 - JSR 367 (FR)
+    - JTA 1.3 - JSR 907 (MR3)
+  - Compatível com: 
+    - Tomcat 8 e 9
+    - WebSphere 9
+    - JBoss EAP 7
